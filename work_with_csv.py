@@ -65,7 +65,7 @@ def approximation(file_name):
 def evidence(file_name):
     try:
         def str_with_e(what_list):
-            """преоброзую строку с е в *10**,чтобы можно было воспользоваться eval()"""
+            """преобразую строку с е в *10**,чтобы можно было воспользоваться eval()"""
             index_e = new_row[what_list].find('e')  # ищу е
             index_e += 2  # нахожу индекс нуля
             new_row[what_list] = new_row[what_list][:index_e] + new_row[what_list][
